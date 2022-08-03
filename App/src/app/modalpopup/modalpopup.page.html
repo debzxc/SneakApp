@@ -1,0 +1,64 @@
+
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <ion-toolbar>
+    <!--Profile Button-->
+<!--Profile Button-->
+
+<!--App Name-->
+    <ion-title>Sneaker App</ion-title>
+<!--App Name-->
+
+
+<!--Side Menu-->
+  <ion-buttons slot="end">
+    <ion-button [routerLink]="['/uhome']">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="person"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/profile-settings']">
+        <ion-icon name="settings-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    
+<!--Side Menu-->
+  </ion-toolbar>
+
+
+<!--Profile-->
+
+
+
+<ion-content>
+  <form class="center">
+    <h1>Create a post</h1>
+    <ion-item color="dark">
+      <ion-label position="stacked">Title</ion-label>
+      <ion-input placeholder="Write your title"></ion-input>
+    </ion-item>    
+    <ion-item color="dark">
+      <ion-label position="stacked">Description</ion-label>
+      <ion-textarea placeholder="What's on your mind?"></ion-textarea>
+    </ion-item>
+    <ion-item color="dark"d>
+  <input type="file" id="myfile" name="myfile" multiple><br><br>
+</ion-item>
+<ion-item color="dark">
+<ion-button [routerLink]="['/uhome']" (click)="showLoading()">Submit</ion-button>
+</ion-item>
+  </form>
+
+
+</ion-content>

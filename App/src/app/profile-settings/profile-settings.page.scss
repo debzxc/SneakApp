@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ion-title{
+    font-family: 'Poppins', sans-serif;
+}
+ion-content{
+    --background:linear-gradient(to right, #386174, #274b9b);
+}
+ion-icon{
+    position:absolute;
+    align-items: center;
+    margin:0 auto;
+    //top:40%;
+    //transform:translateY(-120%);
+}
+.imageadd ion-button{
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    right: -20%;
+    margin:0 auto;
+    top:40%;
+    transform:translateY(-550%);
+}
+.submit ion-button{
+    position: absolute;
+    left: 1%;
+    right: 0;
+    margin:0 auto;
+    top:83%;
+    width: 100px;
+}
+.logout ion-button{
+    position: absolute;
+    left: 1%;
+    right: 0;
+    margin:0 auto;
+    top:90%;
+    width: 100px;
+}
+.edit ion-button{
+    position: absolute;
+    left: 1%;
+    right: 0;
+    margin:0 auto;
+    top:76%;
+    width: 100px;
+}
+ion-item{
+    position:absolute;
+    left: 0%;
+    right: 0;
+    margin:0 auto;
+    top:20%;
+    padding-left: 16px;
+    padding-right: 0;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+ion-button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    position:absolute;
+    left: 1;
+    right: 0;
+    margin:0 auto;
+    top:1%;
+    //transform:translateY(300%);
+    display: table;
+        margin: 0 auto;
+        border-radius: 4px;
+        //margin-top: 27px;
+        --background: #0869AE;
+        --border-radius: 20px;
+}
+.box {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    font-size: 18px;
+    color: #727272;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: linear-gradient(to right, #386174, #274b9b);
+  }
+
+ion-avatar{
+    position:absolute;
+    top: 3%;
+    left: 1%;
+    right: 0;
+    margin:auto;
+}
+
+
+ion-item ion-label{
+    font-size: 25px;
+    font-weight: bold;
+}
+ion-item ion-input{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}

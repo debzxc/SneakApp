@@ -1,0 +1,7 @@
+{
+  "name": "SneakerApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

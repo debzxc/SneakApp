@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sneaker App
+      <ion-button color="light" [routerLink]="['/uhome']">
+          <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!--       input        -->
+
+<ion-content scroll="false" >
+  <center>
+  <ion-avatar>
+    <img class="image" src="assets/profile.jpeg">
+  </ion-avatar>
+  </center>
+    
+    <ion-button color="none" lines="none" (click)="onClick()" fill="clear">
+    <!--  <ion-icon  name="add-circle-outline" color="secondary"></ion-icon>-->
+    </ion-button>
+    
+
+  <ion-item color="none" lines="none">
+    <ion-label position="stacked" color="primary" stacked>Name:</ion-label>
+    <span style = "text-decoration: underline;">
+    <ion-input type="Name" placeholder="Joenas"></ion-input>
+    </span>
+  </ion-item>
+  <ion-item color="none" lines="none">
+    <ion-label position="stacked" color="primary" stacked>Username:</ion-label>
+    <span style = "text-decoration: underline;">
+    <ion-input type="Username" placeholder="Mark Joenas"></ion-input>
+    </span>
+  </ion-item>
+  <ion-item color="none" lines="none">
+    <ion-label position="stacked" color="primary" stacked>Email:</ion-label>
+    <span style = "text-decoration: underline;">
+    <ion-input type="email" placeholder="Markjoenas@gmail.com"></ion-input>
+    </span>
+  </ion-item>
+  <ion-item color="none" lines="none">
+    <ion-label position="stacked" color="primary" stacked>Phone Number:</ion-label>
+    <span style = "text-decoration: underline;">
+    <ion-input type="phonenum" placeholder="09123817123"></ion-input>
+    </span>
+  </ion-item>
+  <!--<ion-item color="none" lines="none">
+    <ion-label position="stacked" color="primary" stacked>Gender:</ion-label><br>
+    <label class="genderselect">
+      <select class="box">
+        <option>Male</option>
+        <option>Female</option>
+        <option selected>Others</option>
+      </select>
+  </label>
+  </ion-item>-->
+<!--       input        -->
+
+
+<!--       suBmit Button        -->
+  <div class="submit" [routerLink]="['/uhome']">
+  <ion-button (click)="showLoading()">Save</ion-button>
+  </div>
+<div class="edit">
+  <ion-button>Edit</ion-button>
+</div>
+  <div class="logout" [routerLink]="['/login']">
+    <ion-button>
+      <ion-icon name="log-in-outline"></ion-icon>
+    </ion-button>
+  </div>
+<!--       suBmit Button        -->
+</ion-content>
+

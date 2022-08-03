@@ -1,0 +1,177 @@
+<html>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <ion-toolbar>
+
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/uhome']">
+        <ion-icon name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <!--Profile Button-->
+   
+      <ion-buttons [routerLink]="['/profile']" slot="end" class="psn">
+        <ion-icon name="person" ></ion-icon>
+      </ion-buttons>
+    
+<!--Profile Button-->
+
+<!--App Name-->
+    <ion-title>Sneaker App</ion-title>
+<!--App Name-->
+
+
+
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/profile-settings']">
+        <ion-icon name="settings-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+
+
+<!--Profile-->
+
+
+<!--Card Container-->
+<ion-content>
+<!--Post Profile-->
+
+<!--Card1-->
+<ion-card class="homepost">
+  <ion-item>
+    <ion-avatar>
+      <img src="../assets/profile.jpeg">
+    </ion-avatar> &nbsp;
+    <ion-label>Mark Joenas</ion-label>
+  </ion-item>
+  <img src="./assets/s1.jpg" />
+  <!--Post Profile-->
+
+<!--Post Title-->
+<ion-card-title color="primary">
+  Shoes 1
+</ion-card-title>
+ <!--Post Title-->
+ 
+ 
+ <!--Post Caption--> 
+ <ion-card-content><p>
+  A Good Shoes
+</p></ion-card-content>
+<!--Post Caption-->
+
+<!--Likes-->
+<ion-row>
+  <ion-col>
+    <ion-buttons>
+      <ion-button>
+      <ion-icon name="heart"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    <div>12 Likes</div>
+  </ion-col>
+</ion-row>
+<!--Likes-->
+
+</ion-card>
+<!--Card1-->
+
+<!--Card 2-->
+<ion-card class="homepost">
+  <ion-item>
+    <ion-avatar>
+      <img src="../assets/profile.jpeg">
+    </ion-avatar>&nbsp;
+    <ion-label>Mark Joenas</ion-label>
+  </ion-item>
+  <img src="./assets/s2.jpg" />
+  <!--Post Profile-->
+
+<!--Post Title-->
+<ion-card-title color="primary">
+  Shoes 2
+</ion-card-title>
+ <!--Post Title-->
+ 
+ 
+ <!--Post Caption--> 
+ <ion-card-content><p>
+  A Good Shoes
+</p></ion-card-content>
+<!--Post Caption-->
+
+<!--Likes-->
+<ion-row>
+  <ion-col>
+    <ion-buttons>
+      <ion-button>
+      <ion-icon name="heart"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    <div>12 Likes</div>
+  </ion-col>
+</ion-row>
+<!--Likes-->
+
+</ion-card>
+<!--Card2-->
+
+
+<!--Card 3-->
+<ion-card class="homepost">
+  <ion-item>
+    <ion-avatar>
+      <img src="../assets/profile.jpeg">
+    </ion-avatar>&nbsp;
+    <ion-label>Mark Joenas</ion-label>
+  </ion-item>
+  <img src="./assets/s3.jpg" />
+  <!--Post Profile-->
+
+<!--Post Title-->
+<ion-card-title color="primary">
+  Shoes 3
+</ion-card-title>
+ <!--Post Title-->
+ 
+ 
+ <!--Post Caption--> 
+ <ion-card-content><p>
+  A Good Shoes
+</p></ion-card-content>
+<!--Post Caption-->
+
+<!--Likes-->
+<ion-row>
+  <ion-col>
+    <ion-buttons>
+      <ion-button>
+      <ion-icon name="heart"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    <div>12 Likes</div>
+  </ion-col>
+</ion-row>
+<!--Likes-->
+
+</ion-card>
+<!--Card3-->
+</ion-content>
+<!--Card Container-->
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button [routerLink]="['/modalpopup']">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+
+
+</html>

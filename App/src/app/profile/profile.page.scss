@@ -1,0 +1,39 @@
+ion-content{
+    --background:linear-gradient(to right, #386174, #274b9b);
+}
+ion-avatar{
+    position:absolute;
+    top: 3%;
+    left: 1%;
+    right: 0;
+    margin:auto;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.info-square{
+    text-align: center;
+}
+
+.follow-button{
+    width: 200px;
+    align-items: center;
+    
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #3E99ED;
+}
+
+.more-details{
+    padding-left: 15px;
+}
+.container{
+    position: relative;
+    top: 14%;
+}
+
