@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'frontscreen',
+    redirectTo: 'slides',
     pathMatch: 'full'
   },
   {
@@ -32,13 +32,10 @@ const routes: Routes = [
     loadChildren: () => import('./password-reset/password-reset.module').then( m => m.PasswordResetPageModule)
   },
   {
-    path: 'frontscreen',
-    loadChildren: () => import('./frontscreen/frontscreen.module').then( m => m.FrontscreenPageModule)
-  },
-  {
     path: 'profile-settings',
     loadChildren: () => import('./profile-settings/profile-settings.module').then( m => m.ProfileSettingsPageModule)
-  },  {
+  },
+  {
     path: 'uhome',
     loadChildren: () => import('./uhome/uhome.module').then( m => m.UhomePageModule)
   },
@@ -65,6 +62,10 @@ const routes: Routes = [
   {
     path: 'post3',
     loadChildren: () => import('./post3/post3.module').then( m => m.Post3PageModule)
+  },
+  {
+    path: 'slides',
+    loadChildren: () => import('./slides/slides.module').then( m => m.SlidesPageModule)
   },
 
 ];

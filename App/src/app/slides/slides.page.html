@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slides</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet"> 
+
+
+
+
+  <ion-app>
+    <ion-content fullscreen class="ion-padding" scroll-y="false">
+      <ion-slides>
+        <!--First Slide-->
+        <ion-slide>
+          <div class="slide1">
+            <img src="./assets/welcome.gif" alt="">
+            <ion-text color="light">
+            <h2>
+              Welcome to
+            </h2>
+            <p><b>
+              Sneak App
+            </b></p>
+          </ion-text>
+          </div>
+        </ion-slide>
+        <!--First Slide-->
+        
+        
+        <!--Second Slide-->
+        <ion-slide>
+          <div class="slide2">
+            <img src="./assets/logo.png" alt="">
+            <ion-text color="light">
+            <h2><b>
+              What is Sneak App?</b>
+            </h2>
+            <p>Sneak app is an application that gives entertainment to those who love compiling their shoes and share it to people.</p>
+          </ion-text>
+          </div>
+        </ion-slide>
+         <!--Second Slide-->
+
+         <!--Third Slide-->
+         <ion-slide>
+          <div class="slide2">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/841d6011677199.572bdaa657e66.png" alt="">
+            <ion-text color="light">
+            <h2>
+              Get Started
+            </h2>
+          </ion-text>
+          </div>
+          <ion-button fill="clear" [routerLink]="['/login']">Continue <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+        </ion-slide>
+         <!--Third Slide-->
+      </ion-slides>
+    </ion-content>
+  </ion-app>
+  
+  
+ 
+</html>
+  

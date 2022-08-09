@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FrontscreenPageRoutingModule } from './frontscreen-routing.module';
+import { SlidesPageRoutingModule } from './slides-routing.module';
 
-import { FrontscreenPage } from './frontscreen.page';
+import { SlidesPage } from './slides.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FrontscreenPageRoutingModule
+    SlidesPageRoutingModule
   ],
-  declarations: [FrontscreenPage]
+  declarations: [SlidesPage]
 })
-export class FrontscreenPageModule {}
+export class SlidesPageModule {}

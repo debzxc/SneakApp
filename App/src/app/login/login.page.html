@@ -2,9 +2,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <ion-header>
 <ion-toolbar>
-  <ion-buttons slot="start" [routerLink]="['/frontscreen']">
-    <ion-icon name="return-down-back-outline"></ion-icon>
-  </ion-buttons>
  <ion-label>Login</ion-label>
 </ion-toolbar>
 </ion-header>
@@ -17,18 +14,14 @@
 
 
 
+<div class="ion-text-center">
+<ion-label color="light">Sneaker App</ion-label>
+</div>
 <ion-button
               type="submit"
-              color="light"
+              color="danger"
               (click)="authService.GoogleAuth()"
               expand="">Log in with &nbsp;
             <ion-icon name="logo-google"></ion-icon>
 </ion-button>
-
-
-
-<div class="ion-text-center">
-<ion-label color="light">Sneaker App</ion-label>
-</div>
-
 </ion-content>
